@@ -58,7 +58,6 @@ header {
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
 	color: rgb(25, 26, 25);
-	background: -webkit-linear-gradient(to left, rgb(216, 233, 168), rgb(30, 81, 40));
 	background: linear-gradient(to left, rgb(216, 233, 168), rgb(30, 81, 40));
 	padding: 1rem 2rem;
 	border: none;
@@ -66,6 +65,11 @@ header {
 	cursor: pointer;
 }
 
+.banner button:active {
+	background: linear-gradient(to left, rgb(162, 170, 119), rgb(23, 61, 30));
+}
+
 .banner button:hover {
-	color: black;
+	transition-duration: 1s;
+	color: #ffffff;
 }
